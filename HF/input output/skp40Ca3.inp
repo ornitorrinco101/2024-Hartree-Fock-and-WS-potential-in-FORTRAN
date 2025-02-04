@@ -1,0 +1,14 @@
+0,                                           IWUNIT "Skyrme 3"
+0,0.3,                                       NGRID,RSTEP
+-1,1,                                        IWR,IFPLOT
+1,8,1.60,                                    IFBW,NBW,OK
+80,0.00001,0.00001,4,,                       ITMAX,DABR,DABE,ITPR,EPSP
+1.00,40.0,0.5,                               XODAMP,E0DAMP,ADDNEW
+1,0,0,0,0,                                   IF:EX,TM,ZPE,DFMS,RHOC
+-1128.75,395.0,-95.0,14000.0,120.0,          T0,T1,T2,T3,T4
+0.45,0.,0.,1.0,                              X0,X1,X2,X3
+1.0,1.0,0.0,0.0,                             POWER,ACOUL,PAIRFP,PAIRFN
+20,20,7,7,                                     NPROT,NNEUT,NMAXP,NMAXN
+1,1,1,1,1,1,0,                                      WEIGHT(PROTONS)
+1,1,1,1,1,1,0,                                      WEIGHT(NEUTRONS)
+-1,                                          TO STOP

@@ -1,0 +1,12 @@
+0,                                           IWUNIT      "FIT Z-sigma"
+0,0.2,                                           NGRID,RSTEP
+ 1,1,                                        IWR,IFPLOT
+ 1,8,1.60,                                   IFBW,NBW,OK
+ ,,,,,                                        ITMAX,DABR,DABE,ITPR,EPSP
+ ,,,                                          XODAMP,E0DAMP,ADDNEW
+ 1,1,1,0,1,                                   IF:EX,TM,ZPE,DFMS,RHOC
+ -2931.7,320.6,-337.4,18709.00,100.0,         T0,T1,T2,T3,T4
+ 0.292,0.653,-0.537,0.181,                              X0,X1,X2,X3
+ 0.16666667,1.0,1,1,                             POWER,ACOUL,PAIRFP,PAIRFN
+ 12,12,5,5,                                      NPROT,NNEUT,NMAXP,NMAXN
+ -1,                                          TO STOP

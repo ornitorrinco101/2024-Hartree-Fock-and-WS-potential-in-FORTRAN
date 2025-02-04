@@ -1,0 +1,11 @@
+A       Z         ICOLA
+16       8             1
+V0         R0       a0        VLS      RLS   aLS        Rc 
+-54.17       3.20     0.53      -4.15    3.20   0.53      3.20
+-54.06       3.20     0.53      -4.76    3.20   0.53      0.00
+RMAX     NPOIN     NPWF
+25       1250       50
+STEP      EMAX     EERR
+1.00   -0.1000  0.1D-10
+OUTPUT WAVE FUNCTIONS
+                    1

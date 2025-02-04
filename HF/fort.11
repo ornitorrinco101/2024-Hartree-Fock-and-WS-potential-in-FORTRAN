@@ -1,0 +1,38 @@
+
+
+ * * * * * * * * * * * *      SKYRME-HARTREE-FOCK      * * * * * * * * * * * * 
+
+ NUCLEUS:  NPROT=   24  NNEUT=   24  NMAXP=    8  NMAXN=    8
+ FORCE:    T0-T4= -2931.700   320.600  -337.400   18709.0   100.000
+           X0-X3=   0.29200   0.65300  -0.53700   0.18100  POWER= 0.16667
+          PAIRFP=    1.000     PAIRFN=    1.000     ACOUL= 1.000
+ CASES:     IFEX=    1  IFTM=    1  IFZPE=    1 IFDFMS=    0 IFRHOC=    1
+          IFPLOT=    1
+ GRID:     RSTEP=   0.200 NGRID=   54
+ STEP:    X0DAMP=  0.000      E0DAMP=  50.00      ADDNEW= 0.5000    
+            DABR= 1.0000E-04    DABE= 1.0000E-04   ITMAX=   80
+           EPSPR= 1.0000E-04    ITPR=    4
+
+
+   MASS RADII: RMS=   3.6131      RDMS=   4.1989      SURFACE=  0.84987    
+ CHARGE RADII: RMS=   3.7337      RDMS=   4.2308      SURFACE=  0.96831    
+  TOTAL ENERGY= -418.37       ZPE=  7.0308      EPAIR= -52.850    
+
+  PROTON SPECTRUM:  J     L    ENERGY       WEIGHT
+                    1/2    0  -31.809      0.99144    
+                    3/2    1  -23.128      0.98234    
+                    1/2    1  -20.886      0.97763    
+                    5/2    2  -14.072      0.94325    
+                    3/2    2  -9.5849      0.86218    
+                    1/2    0  -11.088      0.90076    
+                    7/2    3  -4.7065      0.55465    
+                    5/2    3   1.5374      0.13094    
+ NEUTRON SPECTRUM:  J     L    ENERGY       WEIGHT
+                    1/2    0  -40.047      0.99200    
+                    3/2    1  -31.234      0.98349    
+                    1/2    1  -28.974      0.97911    
+                    5/2    2  -22.019      0.94655    
+                    3/2    2  -17.461      0.86854    
+                    1/2    0  -19.061      0.90733    
+                    7/2    3  -12.454      0.55363    
+                    5/2    3  -5.9878      0.12111    
